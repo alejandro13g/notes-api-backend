@@ -1,0 +1,20 @@
+POST http://localhost:3001/api/notes 
+Content-Type: application/json
+
+  {
+        "userId": 1,
+        "title": "new nota2",
+        "body": "quia et suscipit\nst architecto"
+  }
+
+###
+
+POST http://localhost:3001/api/notes 
+Content-Type: application/json
+
+  {
+        "userId": 1,
+        
+        "body": "quia et suscipit\nst architecto"
+  }
+  //este es de error cuando no hay title da error
